@@ -1,0 +1,60 @@
+
+body {
+  align-items: center;
+  background-color: rgb(175, 175, 201);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  align-items: center;
+  background-color: yellow;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 100%;
+  border: 1px solid black;
+}
+h2{
+  text-align: center;
+  color: green;
+}
+.wpm,
+.wpmLabel {
+  color: rgb(175, 78, 88);
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.timer,
+.timerLabel {
+  align-items: center;
+  font-size: 3rem;
+  color: yellow;
+  font-weight: bold;
+}
+
+.timerLabel,
+.wpmLabel {
+  left: 50rem;
+}
+h3{
+  margin-top: 150px;
+  text-align: center;
+}
+.quote-display {
+  margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-left: calc(1rem - 2px);
+}
+
+.container-focus {
+  border: 3px solid black;
+}
+
+.quote-display .correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
