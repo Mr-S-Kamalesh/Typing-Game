@@ -1,5 +1,5 @@
 console.log(9);
-const RANDOM_QUOTE_API_URL = "http://api.quotable.io/random";
+const RANDOM_QUOTE_API_URL = "https://api.quotable.io/random";
 const container = document.getElementById("container");
 const quoteDisplayElement = document.getElementById("quoteDisplay");
 const timerElement = document.getElementById("timer");
